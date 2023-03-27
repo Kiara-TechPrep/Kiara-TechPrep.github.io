@@ -1,0 +1,72 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* background-color: #16161a; */
+  background-image: url("purpfog.gif");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+  display: flex;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.extra-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.extra-icons a {
+  color: #00fa9a;
+  text-decoration: none;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.name {
+  color: #a786df;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  background-color: #9EFDDA;
+background: -webkit-linear-gradient(bottom, #9EFDDA, #CDBBFF);
+background: -moz-linear-gradient(bottom, #9EFDDA, #CDBBFF);
+background: linear-gradient(to top, #9EFDDA, #CDBBFF);;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.link a {
+  color: #a786df;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
