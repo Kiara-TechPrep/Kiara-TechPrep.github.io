@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -15,6 +19,7 @@ body {
   object-fit: cover;
   border-radius: 128px;
   display: flex;
+  border: 6px solid #00fa9a;
 }
 
 .banner {
@@ -45,15 +50,27 @@ body {
   justify-content: center;
 }
 
+/* @font-face {
+  font-family: 'frozenregular';
+  src: url('frozen-webfont.woff2') format('woff2'),
+       url('frozen-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+} */
 .link {
   background-color: #9EFDDA;
 background: -webkit-linear-gradient(bottom, #9EFDDA, #CDBBFF);
 background: -moz-linear-gradient(bottom, #9EFDDA, #CDBBFF);
-background: linear-gradient(to top, #9EFDDA, #CDBBFF);;
+background: linear-gradient(to top, #9EFDDA, #CDBBFF);
   display: flex;
   align-items: center;
   padding: 5px;
   border-radius: 40px;
+}
+
+.link:hover {
+  background-color: #000000;
 }
 
 .link a {
